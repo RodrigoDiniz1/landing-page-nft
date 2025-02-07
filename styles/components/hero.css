@@ -1,7 +1,7 @@
 .hero{
     display: flex;
     padding-inline: 1.25rem ;
- 
+    overflow: hidden;
     padding-top: 6em;
 }
 
@@ -48,4 +48,12 @@ margin-block: 1.5rem;
     width: 500px;*/
     flex: 1;
 
+}
+
+/*
+Hero Right
+*/
+
+.hero__img {
+    transform: rotate(15deg);
 }
