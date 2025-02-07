@@ -1,3 +1,7 @@
+.bg {
+    background: linear-gradient(150deg,  rgba(172, 60, 246, 0.2), #06061a);
+}
+
 .hero{
     display: flex;
     padding-inline: 1.25rem ;
@@ -32,6 +36,7 @@ margin-bottom: 1rem;
     font-weight: 300;
 line-height: calc(1em + 0.5rem);
 margin-block: 1.5rem;
+    max-width: 55ch;
 }
 
 .hero__button{
@@ -58,5 +63,5 @@ Hero Right
 
 .hero__img {
     transform: rotate(15deg);
-    max-width: 600px;
+    max-width: 550px;
 }
