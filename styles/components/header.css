@@ -22,5 +22,13 @@ font-weight: 600;
 .nav__a {
     color: inherit;
     text-decoration: none;
+
 }
 
+@media (width < 768px)
+{
+    .header__nav {
+        display: none;
+    }
+
+}
