@@ -87,4 +87,8 @@
         .info-wrapper {
             flex-direction: column;
         }
+
+        .section__description {
+            max-width: 60ch;
+        }
     }
