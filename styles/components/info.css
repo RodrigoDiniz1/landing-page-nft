@@ -86,6 +86,12 @@
     @media screen and (width < 1024px) {
         .info-wrapper {
             flex-direction: column;
+            margin-top: .2rem;
+            margin-bottom: 10rem;
+        }
+
+        .section__title {
+            font-size: 2.0rem ;
         }
 
         .section__description {
