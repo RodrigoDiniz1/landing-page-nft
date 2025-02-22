@@ -81,3 +81,10 @@
         border-radius: 6px;
         color: #000;
     }
+
+
+    @media screen and (width < 1024px) {
+        .info-wrapper {
+            flex-direction: column;
+        }
+    }
