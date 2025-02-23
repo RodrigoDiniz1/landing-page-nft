@@ -1,7 +1,12 @@
+.features{
+    max-width: 1280px;
+    margin-inline: auto;
+}
 
 .features-wrappers{
     background-color: #131325;
     padding: 4rem 2rem 2rem 2rem;
+    border-radius: 12px;
 }
 
 
@@ -20,26 +25,33 @@
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+    row-gap: 4rem;
+    margin-top: 5rem;
 }
 
 
 .feature__card {
     background-color: #25283D;
-    padding: 2rem;
+    padding: 6rem 2rem 2rem 2rem;
     border-radius: 12px;
     flex: 1;
-    min-width: 30px;
+    min-width: 300px;
+    position: relative;
 }
 
 
 .feature__card-img {
     width: 6rem;
+    position: absolute;
+    top: -3rem;
+    left: 2rem;
 }
 
 
 .feature__card-title {
     font-size: 1.5rem;
     font-weight: 500;
+    
 }
 
 
