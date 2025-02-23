@@ -1,17 +1,50 @@
+
 .features-wrappers{
     background-color: #131325;
     padding: 4rem 2rem 2rem 2rem;
 }
 
+
 .features__text {
     text-align: center;
 }
+
 
 .features--description {
     max-width: 60ch;
     margin-inline: auto;
 }
 
+
+.features__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
 .feature__card {
     background-color: #25283D;
+    padding: 2rem;
+    border-radius: 12px;
+    flex: 1;
+    min-width: 30px;
 }
+
+
+.feature__card-img {
+    width: 6rem;
+}
+
+
+.feature__card-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+.feature__card-description {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 300;
+}
+
