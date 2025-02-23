@@ -1,0 +1,17 @@
+.features-wrappers{
+    background-color: #131325;
+    padding: 4rem 2rem 2rem 2rem;
+}
+
+.features__text {
+    text-align: center;
+}
+
+.features--description {
+    max-width: 60ch;
+    margin-inline: auto;
+}
+
+.feature__card {
+    background-color: #25283D;
+}
