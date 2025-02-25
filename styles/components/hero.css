@@ -44,8 +44,16 @@ margin-block: 1.5rem;
    padding: 0.5em 2em; 
    font-size: 1rem;
    border-radius: 6px;
-   color: #000;
+  color: #000;
 
+}
+.hero__button:hover{
+   background: linear-gradient(to right, #e8546b, #055808);
+   padding: 0.5em 2em; 
+   font-size: 1rem;
+   border-radius: 6px;
+  color: #000;
+    transform: scale(1.2);
 }
 
 .hero__left, 
